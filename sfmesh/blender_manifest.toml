@@ -1,0 +1,23 @@
+schema_version = "1.0.0"
+
+id = "sfmesh"
+maintainer = "The Great and Powerful Veegi <the.great.and.powerful.veegi@gmail.com>"
+name = "SFMesh format"
+tagline = "Enables exporting meshes for Starfall"
+type = "add-on"
+version = "1.0.0"
+
+# website = "https://extensions.blender.org/add-ons/my-example-package/"
+
+# https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
+tags = ["Import-Export"]
+
+blender_version_min = "4.2.0"
+
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:CC0-1.0",
+]
+
+[permissions]
+files = "Export SFMesh to disk"
