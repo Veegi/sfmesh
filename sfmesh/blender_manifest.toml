@@ -7,7 +7,7 @@ tagline = "Enables exporting meshes for Starfall"
 type = "add-on"
 version = "1.0.0"
 
-# website = "https://extensions.blender.org/add-ons/my-example-package/"
+website = "https://github.com/Veegi/sfmesh"
 
 # https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
 tags = ["Import-Export"]
