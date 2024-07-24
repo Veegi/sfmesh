@@ -3,6 +3,13 @@ SFMesh is a file format designed for compatibility with Starfall's mesh utilitie
 
 SFMesh files are designed to be included as SF source code, in order to leverage the built-in file upload system for distributing the data to clients. As such the standard file extension is `.txt`. For use in other systems a binary format may be used, with the extension `.sfmesh`.
 
+## Blender Add-on
+
+This repository contains the source code for a Blender add-on that facilitates exporting objects into the SFMesh format.
+You can download the add-on by downloading it from the [releases](https://github.com/Veegi/sfmesh/releases).
+
+Installation instructions can be found in the [Blender documentation](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html#add-on-settings).
+
 ## Format Version `1.0` Specification
 
 Text-based SFMesh files are Starfall modules and should be loaded like any other module. SFMesh files must return a Base64 encoded string representing the FastLZ-compressed binary mesh data as the first returned value. The alternative binary format foregoes the Base64 conversion, but is still compressed.
